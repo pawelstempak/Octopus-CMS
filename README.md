@@ -5,7 +5,7 @@ Octopus CMS is a content managment sSystem based on SMARTY templates and Materia
 
 ## How does it look like
 
-<p align="center"><img src="https://pawelstempak.com/backend.jpg"></p>
+<p align="center"><img src="https://pawelstempak.com/backend.jpg" width="200"><img src="https://pawelstempak.com/backend.jpg" width="200"></p>
 
 ## Installation
 
