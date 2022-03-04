@@ -1,0 +1,37 @@
+.logo {
+    font-size:2rem;
+    text-align: center;
+}
+h1 {
+    font-size:1.4rem;
+}
+@media only screen and (min-width: 1350px) {
+    .container {
+        width:60%;
+    }
+    .greetings {
+        width:60%;
+        text-align:center;
+        margin: 0px auto;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1349px) {
+    .container {
+        width:80%;
+    }
+    .greetings {
+        width:70%;
+        text-align:center;
+        margin: 0px auto;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+    .container {
+        width:80%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width:90%;
+    }
+}

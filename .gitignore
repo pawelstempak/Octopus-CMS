@@ -1,0 +1,4 @@
+db.php
+backend/tpl/default/smarty/templates_c/*.tpl.php
+tpl/default/smarty/templates_c/*.tpl.php
+phpshell/*

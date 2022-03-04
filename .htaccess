@@ -1,0 +1,21 @@
+RewriteEngine On
+#If you want to use forwarding on SSL domain, uncoment code below and replace `yourdomain.com` with own domain name.
+#RewriteCond %{HTTP_HOST} ^www.yourdomain.com(.*) [NC]
+#RewriteRule ^(.*)$ https://yourdomain.com/$1 [R=301,L]
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^(.*)$ https://yourdomain.com/$1 [R=301,L]
+
+RewriteRule ^backend$ /backend.php [L,R=301]
+RewriteRule ^backend/$ /backend.php [L,R=301]
+RewriteRule ^backend/([A-Za-z0-9_-]+)$ /backend.php?l=backend&page=$1
+RewriteRule ^backend/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)$ /backend.php?l=backend&page=$1&id=$2
+RewriteRule ^backend/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)$ /backend.php?l=backend&page=$1&action=$2&id=$3
+RewriteRule ^backend/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)$ /backend.php?l=backend&page=$1&action=$2&id=$3&action_id=$4
+RewriteRule ^modules/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)$ /backend.php?l=modules&mod=$1&page=$2
+RewriteRule ^modules/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)$ /backend.php?l=modules&mod=$1&page=$2&id=$3
+RewriteRule ^modules/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)$ /backend.php?l=modules&mod=$1&page=$2&id=$3&action=$4
+RewriteRule ^modules/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)$ /backend.php?l=modules&mod=$1&page=$2&id=$3&action=$4&action_id=$5
+
+RewriteRule ^home$ /index.php [L]
+RewriteRule ^language/([A-Za-z0-9]+)$ /index.php?language=$1 [L]
+RewriteRule ^([A-Za-z0-9_-]+)$ /index.php?page=$1 [L]

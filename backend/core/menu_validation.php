@@ -1,0 +1,43 @@
+<?php
+$pg = new PageValidation();
+if($pg->isPageValid($result_login_user['id'],"menus"))
+{
+	$smarty->assign('pmenus','1');
+}
+if($pg->isPageValid($result_login_user['id'],"pages"))
+{
+	$smarty->assign('ppages','1');
+}
+if($pg->isPageValid($result_login_user['id'],"layouts"))
+{
+	$smarty->assign('playouts','1');
+}
+if($pg->isPageValid($result_login_user['id'],"modules"))
+{
+	$smarty->assign('pmodules','1');
+}
+if($pg->isPageValid($result_login_user['id'],"widgets"))
+{
+	$smarty->assign('pwidgets','1');
+}
+if($pg->isPageValid($result_login_user['id'],"backend_users"))
+{
+	$smarty->assign('pbackend_users','1');
+}
+if($pg->isPageValid($result_login_user['id'],"templates"))
+{
+	$smarty->assign('ptemplates','1');
+}
+if($pg->isPageValid($result_login_user['id'],"language"))
+{
+	$smarty->assign('planguage','1');
+}
+if($pg->isPageValid($result_login_user['id'],"settings"))
+{
+	$smarty->assign('psettings','1');
+}
+if($pg->isPageValid($result_login_user['id'],"backend_settings"))
+{
+	$smarty->assign('pbackend_settings','1');
+}
+?>
