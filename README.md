@@ -3,7 +3,7 @@
 ## About Octopus CMS
 Octopus CMS is a content managment sSystem based on SMARTY templates and MaterializeCSS css framework.
 
-## Instalation
+## Installation
 
 1. Clone this repository or download ZIP package on https://yourdomain.com
 2. Crate MySQL database and note its authorisation data.
