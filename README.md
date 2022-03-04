@@ -10,3 +10,10 @@ Octopus CMS is a content managment sSystem based on SMARTY templates and Materia
 3. Go to URL https://yourdomain.com/INSTALL/install.php
 4. Complete the database connection data and create backend user.
 5. Thats it. Create your website.
+
+## Bugs, issues and suggestions
+If you discover any bugs or issues with Octopus CMS, please inform me at pawelstempak@gmail.com.
+
+## License
+
+The Octpus CMS is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
