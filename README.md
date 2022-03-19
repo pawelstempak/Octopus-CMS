@@ -3,7 +3,7 @@
 ## About Octopus CMS
 Octopus CMS is a content managment system based on SMARTY templates and MaterializeCSS css framework.
 
-## How does it look like
+## How does it looks like
 
 <p align="center"><img src="https://pawelstempak.com/backend.jpg" width="400"> <img src="https://pawelstempak.com/backend1.jpg" width="400"></p>
 
