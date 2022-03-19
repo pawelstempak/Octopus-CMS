@@ -10,7 +10,7 @@ Octopus CMS is a content managment system based on SMARTY templates and Material
 ## Installation
 
 1. Clone this repository or download ZIP package on https://yourdomain.com
-2. Crate MySQL database and note its authorisation data.
+2. Create MySQL database and note its authorisation data.
 3. Go to URL https://yourdomain.com/INSTALL/install.php
 4. Complete the database connection data and create backend user.
 5. Thats it. Create your website.
